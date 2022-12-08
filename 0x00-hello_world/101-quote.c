@@ -3,21 +3,19 @@
 #include <unistd.h>
 
 /**
-
- * main - Entry Point
  *
- * Description: prints a string to the standard error
+ *  * main - Prints out the last part of a quote in the standard error.
  *
- * Return: Always 1(Error)
- */
+ *   * Return: 1 if success.
+ *
+ *    */
 
 int main(void)
 
 {
 
-	char err[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-199\n";
+		write(2, "and that piece of art is useful - Dora Korpar, 2015-10-19\n", 58);
 
-	write(2,  err, 59);
+			return (1);
 
-	return (1);
 }
