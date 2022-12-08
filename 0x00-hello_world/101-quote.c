@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - Prints that piece of art is useful
+ * main - Prints 0 that piece of art is useful
  */
 int main(void)
 {
