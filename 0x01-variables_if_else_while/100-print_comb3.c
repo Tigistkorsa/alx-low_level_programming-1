@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - prints all possible different combinations of two digits.
+ * main - Prints the combinations of different digits,
+ *        in ascending order, separated by a comma followed by a space.
  *
  * Return: Always 0
  */
