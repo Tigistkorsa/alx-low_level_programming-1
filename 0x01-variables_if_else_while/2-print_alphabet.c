@@ -2,19 +2,20 @@
 #include <stdlib.h>
 /**
  * main - Return Alphabet
- * 
+ *
  * Return: 0
  */
 int main(void)
 {
-	char c = 'a';
+        char c = 'a';
 
-	while (c <= 'z')
-	{
-		putchar(c);
-		c++;
-	}
+        while (c <= 'z')
+        {
+                putchar(c);
+                c++;
+        }
 
-	putchar('\n');
-	return (0);
+        putchar('\n');
+        return (0);
 }
+
