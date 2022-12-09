@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Return Alphabet
- * 
+ * main - main block
+ * Description: Get a random number and check its last digit, compare it with 5
  * Return: 0
  */
 int main(void)
 {
-	int ch = 'a';
+	char c = 'a';
 
-	while (ch <= 'z')
+	while (c <= 'z')
 	{
-		putchar(ch);
-		ch++;
+		putchar(c);
+		c++;
 	}
 
 	putchar('\n');
