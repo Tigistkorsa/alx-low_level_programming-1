@@ -8,26 +8,18 @@
  * Return: largest number
  */
 
-int largest_number(int a, int b, int c)
+nt largest_number(int a, int b, int c)
 {
-    int largest;
+	int largest = b;
 
-    if (a > b && a > c)
-    {
-        largest = a;
-    }
-    else if (a > a && c > a)
-    {
-        largest = c;
-    }
-    else if (b > c)
-    {
-        largest = b;
-    }
-	else
+	if (a > b)
 	{
-	laregest=c;
+		largest = a;
 	}
-    return (largest);
-}
+	else if (c > b)
+	{
+		largest = c;
+	}
 
+	return (largest);
+}
