@@ -10,9 +10,9 @@ void more_numbers(void)
 char r, i;
 int n = 0;
 
-while (i < 10)
+while (n < 10)
 {
-for (r = 0; r <= 14; n++)
+for (r = 0; r <= 14; r++)
 {
 i = r;
 if (r > 9)
@@ -24,6 +24,6 @@ _putchar('0' + i);
 }
 
 _putchar('\n');
-i++;
+n++;
 }
 }
