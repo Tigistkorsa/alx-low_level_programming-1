@@ -13,7 +13,7 @@ unsigned int i;
 i = n;
 if (n < 0)
 {
-_putchar(45);
+_putchar(98);
 x = -n;
 }
 if (i / 10)
