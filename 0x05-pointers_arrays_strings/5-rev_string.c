@@ -4,6 +4,7 @@
  * rev_string - this characters in reverse.
  * @s: this is a parameter to change.
  */
+
 void rev_string(char *s)
 {
 
@@ -24,4 +25,5 @@ tmp = s[i];
 s[i] = s[length];
 s[length2] = tmp;
 lenght2 -= 1;
-
+}
+}
