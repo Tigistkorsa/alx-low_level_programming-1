@@ -7,12 +7,9 @@
  */
 int _strlen(char *s)
 {
-int len;
-
-while (*s != '\0')
-{
-len = len + 1;
-s = s + 1;
-}
+int roll, len;
+len = 0;
+for (roll = 0, s[roll] != '\0'; roll++)
+len++;
 return (len);
-}
+
