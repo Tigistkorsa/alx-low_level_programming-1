@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * puts_half - this function print only the even numbers.
  * @str: is the principal parameter.
