@@ -22,9 +22,9 @@ for (i = 0; i <  length1 / 2; i++)
 {
 
 tmp = s[i];
-s[i] = s[length];
+s[i] = s[length2];
 s[length2] = tmp;
-lenght2 = 1;
+lenght2 -= 1;
 }
 
 }
