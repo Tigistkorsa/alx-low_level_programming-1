@@ -15,7 +15,7 @@ length1 = 0;
 length2 = 0;
 
 while (s[length1] != '\0')
-length++;
+length ++;
 
 length2 = length1 - 1;
 for (i = 0; i <  length1 / 2; i++)
@@ -24,6 +24,8 @@ for (i = 0; i <  length1 / 2; i++)
 tmp = s[i];
 s[i] = s[length];
 s[length2] = tmp;
-lenght2 -= 1;
+lenght2 = 1;
 }
+
 }
+
