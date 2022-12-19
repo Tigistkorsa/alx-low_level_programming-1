@@ -2,7 +2,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-  
+
+/**
+ * main - random password generator for 101-crackme
+ *
+ * Return: Always 0.
+ */
+
+
+
 void randomPasswordGeneration(int N)
 {
    
