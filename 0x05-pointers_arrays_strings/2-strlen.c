@@ -5,14 +5,14 @@
  * @s: this is a parameter to change.
  * Return: len
  */
-
-
 int _strlen(char *s)
 {
-int len;
-for (; *s != '\0'; s++)
-{
-len += 1;
-}
-return (len);
+	int len;
+
+	while (*s != '\0')
+	{
+		len = len + 1;
+		s = s + 1;
+	}
+	return (len);
 }
