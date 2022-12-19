@@ -1,15 +1,16 @@
 #include "main.h"
-
 /**
- * _strlen - this function change the initial.
- * @s: this is a parameter to change.
- * Return: len
+ *_strlen - returns the length of a string
+ * @s: string
+ *Return: returns lenght;
  */
 int _strlen(char *s)
 {
-int roll, len;
-len = 0;
-for (roll = 0, s[roll] != '\0'; roll++)
-len++;
-return (len);
+int count, inc;
+inc = 0;
+for (count = 0; s[count] != '\0'; count++)
+inc++;
+
+return (inc);
+}
 
