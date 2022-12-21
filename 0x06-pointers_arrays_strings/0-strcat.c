@@ -9,13 +9,10 @@
 
 char *_strcat(char *dest, char *src);
 {
-int index = 0, dest_len = 0;
+char s1[20]="src";
+char s2[]="dest";
+strcat(s1,s2);
 
-while (dest[index++])
-dest_len++;
-
-for (index = 0; src[index]; index++)
-dest[dest_len++] = src[index];
-
-return (dest);
+_putchar(s1);
+return dest;    
 }
