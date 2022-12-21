@@ -7,7 +7,7 @@
  * Return: a pointer to the resulting string
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 char s1[20]="src";
 char s2[]="dest";
