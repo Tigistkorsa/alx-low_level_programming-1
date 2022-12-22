@@ -1,11 +1,11 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * leet - Encodes a string to 1337.
- * @x: param x
+ * @str: param str
  * Return: A pointer to the encoded string.
  */
-char *leet(char *x)
+char *leet(char *str)
 {
 int a = 0, b, l = 5;
 char tr[5] = {'A', 'E', 'O', 'T', 'L'};
