@@ -1,23 +1,24 @@
 #include "main.h"
 
 /**
- * _strncat - concatenate two strings but add inputted number of bytes
- * @dest: string to be appended upon
- * @src: string to be completed at end of dest
- * @n:integer parameter to compare index to
- * Return: returns new concatenated string
+ * _ _memcpy - function copies @n bytes from memory area @src to @d
+ * @dest: to memory area
+ * @src: bytes from memory area
+ * @n: function copies
+ * Return: a pointer to @dest
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
+
 {
-int index = 0, dest_len = 0;
-while (dest[index++])
 
-dest_len++;
+unsigned int i = 0;
 
-for (index = 0; src[index] && index < n; index++)
+while (i < n)
 
-dest[dest_len++] = src[index];
+{
+dest[i] = src[i];
+i++;
+}
 
 return (dest);
-}
