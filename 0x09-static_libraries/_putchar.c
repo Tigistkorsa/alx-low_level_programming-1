@@ -1,5 +1,5 @@
 #include "main.h"
 
-char *_strstr(char *haystack, char *needle)
+int _putchar(char c)
 {
 }

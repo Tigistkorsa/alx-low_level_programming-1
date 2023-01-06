@@ -1,3 +1,6 @@
 #include "main.h"
 
-unsigned int _strspn(char *s, char *accept)
+
+int _abs(int n)
+{
+}
