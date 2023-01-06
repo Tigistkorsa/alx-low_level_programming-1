@@ -1,7 +1,6 @@
 #include "main.h"
 
 
-
-void _puts(char *s)
+char *_strchr(char *s, char c)
 {
 }

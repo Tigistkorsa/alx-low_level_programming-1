@@ -2,6 +2,6 @@
 
 
 
-char *_strncat(char *dest, char *src, int n)
+void _puts(char *s)
 {
 }

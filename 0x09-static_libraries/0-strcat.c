@@ -1,5 +1,5 @@
 #include  "main.h"
 
-int _isalpha(int c)
+char *_strncat(char *dest, char *src, int n)
 {
 }
