@@ -2,7 +2,7 @@
 #include "dog.h"
 /**
  * free_dog - free dogs
- * @d: pointer 
+ * @d: pointer
  * Return: void
  */
 void free_dog(dog_t *d)
